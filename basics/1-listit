@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ""$(ls --format=single-column)""
+echo "$(ls -1)"
