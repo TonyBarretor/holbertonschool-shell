@@ -1,0 +1,5 @@
+#!/bin/bash
+cwd="$(pwd)"
+echo "Current working directory: $cwd"
+
+chmod +x 0-current_working_directory.sh
