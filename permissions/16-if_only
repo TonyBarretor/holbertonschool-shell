@@ -1,2 +1,3 @@
 #!/bin/bash
-chown root hello
+[ "$(stat -c %U hello)" = "guillaume" ] && chown vincent hello
+
