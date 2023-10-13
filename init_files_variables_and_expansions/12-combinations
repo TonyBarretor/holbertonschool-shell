@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e $AB | tr ' ' '\n' | grep -v "oo"
