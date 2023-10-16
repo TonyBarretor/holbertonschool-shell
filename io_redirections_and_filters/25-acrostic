@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1-1 | paste -sd '' | tr -d ' \n' | printf '\n'
+echo $(cut -c 1-1 | paste -sd '' | tr -d ' \n')
