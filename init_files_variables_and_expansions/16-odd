@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | nl | grep -E '^[[:space:]]*[13579][0-9]*\>' | paste -sd '\n\n'
+ls -1 | perl -lne 'print if $. % 2 != 0'
